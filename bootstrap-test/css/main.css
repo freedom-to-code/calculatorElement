@@ -143,6 +143,7 @@ body {
   display: table-cell;
   vertical-align: middle;
   line-height: 1;
-  padding-left: 24px; }
+  padding-left: 24px;
+  cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
