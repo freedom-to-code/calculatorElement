@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <script src="../js/jquery-1.11.0.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+<style>
+</style>
+<body>
+<div class="orange-theme">
+    <div class="title-view">
+        <div class="glyphicon glyphicon-chevron-left glyicon-3x left-back" id=""></div>
+        <div class="mid-title">填写信息</div>
+        <div class="right-smt">提交订单</div>
+    </div>
+    <div class="pd-26">
+        <form class="form-horizontal" role="form">
+            <div class="">
+                <div class="form-group">
+                    <div class="clearfix theme-color col-xs-6 col-sm-6 col-lg-6">
+                        <span class="glyphicon glyphicon-list-alt glyicon-3x-half pull-left"></span>
+                        <div class="lh-3x-half pull-left">&nbsp;&nbsp;投保人信息</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-6 col-sm-6 col-lg-6">
+                        <div class="inner-tip-ipt input-group">
+                            <span class="input-group-addon">姓*</span>
+                            <input type="text" class="form-control" id="" placeholder="请输入您的姓">
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-lg-6">
+                        <div class="inner-tip-ipt input-group">
+                            <span class="input-group-addon">名*</span>
+                            <input type="text" class="form-control" id="" placeholder="请输入您的名">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+                        <div class="inner-tip-ipt input-group drop-select">
+                            <span class="input-group-addon">证件类型*</span>
+                            <span class="inner-tip-ipt-content"></span>
+                            <div class="dropdown drop-slt pull-right pos-ab">
+                                <span class="caret ipt-caret" data-toggle="dropdown"></span>
+                                <ul class="dropdown-menu pull-left" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="javascript:;" value="身份证">身份证</a>
+                                    </li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="javascript:;" value="护照">护照</a>
+                                    </li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="javascript:;" value="港澳通行证">
+                                            港澳通行证
+                                        </a>
+                                    </li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="javascript:;" value="军人证">军人证</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+                        <div class="inner-tip-ipt input-group">
+                            <span class="input-group-addon">证件号码*</span>
+                            <input type="text" class="form-control" id="" placeholder="请输入证件号码">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+                        <div class="inner-tip-ipt input-group">
+                            <span class="input-group-addon">联系电话*</span>
+                            <input type="text" class="form-control" id="" placeholder="请输入联系电话">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+                        <div class="inner-tip-ipt input-group">
+                            <span class="input-group-addon">常用邮箱</span>
+                            <input type="text" class="form-control" id="" placeholder="请输入常用邮箱">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+                        <div class="inner-tip-ipt input-group drop-select">
+                            <span class="input-group-addon">职业</span>
+                            <span class="inner-tip-ipt-content"></span>
+                            <div class="dropdown drop-slt pull-right pos-ab">
+                                <span class="caret ipt-caret" data-toggle="dropdown"></span>
+                                <ul class="dropdown-menu pull-left" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="javascript:;" value="学生">学生</a>
+                                    </li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="javascript:;" value="程序员">程序员</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-6 col-sm-6 col-lg-6">
+                        <div class="inner-tip-ipt input-group drop-select">
+                            <span class="input-group-addon">性别*</span>
+                            <span class="inner-tip-ipt-content"></span>
+                            <div class="dropdown drop-slt pull-right">
+                                <span class="caret ipt-caret" data-toggle="dropdown"></span>
+                                <ul class="dropdown-menu pull-left" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="javascript:;" value="男">男</a>
+                                    </li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="javascript:;" value="女">女</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-lg-6">
+                        <div class="inner-tip-ipt input-group">
+                            <span class="input-group-addon">生日</span>
+                            <input type="text" class="form-control" id="name" placeholder="如20160101">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="clearfix theme-color col-xs-6 col-sm-6 col-lg-6">
+                        <span class="glyphicon glyphicon-list-alt glyicon-3x-half pull-left"></span>
+                        <div class="lh-3x-half pull-left">&nbsp;&nbsp;被保人信息</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-6 col-sm-6 col-lg-6 one-font-ml">
+                        <label>被保人：</label>
+                        <div class="checkboxone">
+                            <span class="glyphicon glyphicon-ok glyicon-3x-half" id="checkboxone-icon"></span>
+                            <label for="checkboxone-icon">本人</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+                        <button type="button" class="btn btn-smt">提交订单</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+        //下拉框绑定事件，用querySelectorAll仅仅是不想解绑事件，没有多大意义
+        var ul = document.querySelectorAll('ul.dropdown-menu');
+        for (var i = 0; i < ul.length; i++) {
+            ul[i].onclick = Dropslt.sltChoose;
+        }
+        //用类选择器是为了绑定所有下拉框，实际做成控件时，应为下拉框设置ID，然后在控件内绑定事件
+        var slt=document.querySelectorAll('.drop-select');
+        for (var i = 0; i < slt.length; i++) {
+            slt[i].onclick = Dropslt.sltChooseForPar;
+        }
+    </script>
+</div>
+</body>
+</html>

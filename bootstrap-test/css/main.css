@@ -1,0 +1,148 @@
+@charset "UTF-8";
+.orange-theme .theme-color {
+  color: #e5672c; }
+
+.orange-theme .btn-smt {
+  background-color: #e5672c;
+  border-color: #e5672c;
+  color: #fff; }
+
+.orange-theme .btn-smt:active {
+  background-color: #c25725;
+  border-color: #c25725; }
+
+.orange-theme .title-view {
+  background: #e5672c;
+  color: #fff; }
+
+body {
+  overflow-x: hidden;
+  /*字体需要加媒体查询*/
+  font-size: 24px; }
+
+.pos-rl {
+  position: relative; }
+
+.pos-ab {
+  position: absolute; }
+
+.ml-14 {
+  margin-left: 14px; }
+
+.mr-14 {
+  margin-right: 14px; }
+
+.pd-26 {
+  padding: 26px; }
+
+.inner-tip-ipt {
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 4px;
+  height: 60px; }
+
+.inner-tip-ipt .input-group-addon,
+.inner-tip-ipt .form-control {
+  font-size: 24px; }
+
+.inner-tip-ipt .input-group-addon {
+  background: transparent;
+  border: none; }
+.inner-tip-ipt .form-control {
+  height: 60px;
+  border: 0 transparent;
+  box-shadow: 0 0; }
+
+.inner-tip-ipt .lbl-p-1 {
+  padding-left: 24px; }
+
+.inner-tip-ipt .lbl-p-4 {
+  /*需要根据字体大小，只需要改变字体大小*/
+  padding-left: 112px; }
+
+.inner-tip-ipt .control-label {
+  /*脱离文档流*/
+  position: absolute;
+  top: 18px;
+  left: 35px;
+  padding-top: 0;
+  line-height: 1; }
+
+.inner-tip-ipt input:focus {
+  border-color: #e5672c;
+  box-shadow: 0 0; }
+
+.glyicon-3x-half {
+  font-size: 1.5em; }
+
+.glyicon-2x {
+  font-size: 2em; }
+
+.glyicon-3x {
+  font-size: 3em; }
+
+.lh-3x-half {
+  line-height: 1.5em; }
+
+.checkboxone {
+  color: #969696;
+  display: inline-block;
+  cursor: pointer; }
+
+.checkboxone .glyphicon {
+  border: 2px solid;
+  border-radius: 7px;
+  padding: 4px; }
+
+.one-font-ml {
+  margin-left: 1em; }
+
+.btn-smt {
+  background-color: #fff;
+  border-color: #ccc;
+  color: #fff;
+  width: 100%;
+  height: 88px;
+  font-size: 2em; }
+
+.title-view {
+  height: 88px;
+  display: table;
+  width: 100%; }
+
+.title-view .left-back,
+.title-view .mid-title,
+.title-view .right-smt {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle; }
+
+.left-back {
+  width: 10%; }
+
+.mid-title {
+  width: 80%;
+  font-size: 3em; }
+
+.right-smt {
+  min-width: 10%;
+  font-size: 1.2em; }
+
+.ipt-caret {
+  border-top: 14px solid;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent; }
+
+.drop-slt {
+  font-size: 0;
+  top: 23px;
+  right: 14px;
+  z-index: 3; }
+
+.inner-tip-ipt-content {
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1;
+  padding-left: 24px; }
+
+/*# sourceMappingURL=main.css.map */
