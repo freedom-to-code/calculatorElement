@@ -26,6 +26,11 @@ $globalFs: 24px; //默认的输入框高度，需要在媒体查询中再次定�
   color: #fff;
 }
 
+html{
+  /*用于rem的使用*/
+  font-size: $globalFs;
+}
+
 body {
   overflow-x: hidden;
   /*字体需要加媒体查询*/
@@ -128,10 +133,12 @@ body {
   cursor: pointer;
 }
 
-.checkboxone .glyphicon {
+.checkboxone .glyphicon::before {
   border: 2px solid;
   border-radius: 7px;
   padding: 4px;
+  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .one-font-ml {
@@ -196,5 +203,4 @@ $triangleTipH: 14px;
   vertical-align: middle;
   line-height: 1;
   padding-left: $globalFs;
-  cursor: pointer;
 }

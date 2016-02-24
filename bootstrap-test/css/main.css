@@ -15,6 +15,10 @@
   background: #e5672c;
   color: #fff; }
 
+html {
+  /*用于rem的使用*/
+  font-size: 24px; }
+
 body {
   overflow-x: hidden;
   /*字体需要加媒体查询*/
@@ -89,10 +93,12 @@ body {
   display: inline-block;
   cursor: pointer; }
 
-.checkboxone .glyphicon {
+.checkboxone .glyphicon::before {
   border: 2px solid;
   border-radius: 7px;
-  padding: 4px; }
+  padding: 4px;
+  font-size: 1.5em;
+  font-size: 1.5rem; }
 
 .one-font-ml {
   margin-left: 1em; }
@@ -143,7 +149,6 @@ body {
   display: table-cell;
   vertical-align: middle;
   line-height: 1;
-  padding-left: 24px;
-  cursor: pointer; }
+  padding-left: 24px; }
 
 /*# sourceMappingURL=main.css.map */
