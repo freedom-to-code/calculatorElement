@@ -93,6 +93,9 @@ body {
   display: inline-block;
   cursor: pointer; }
 
+.checkboxone input[type='checkbox'] {
+  opacity: 0; }
+
 .checkboxone .glyphicon::before {
   border: 2px solid;
   border-radius: 7px;
